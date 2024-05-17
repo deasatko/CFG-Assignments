@@ -78,4 +78,4 @@ If needed, take screenshots of the process and add to your README file.
 + Create .gitignore (can be empty) and briefly explain what it is for:
 *Git ignore is a file where we specify files and folders that we do not want to push in our repository. This is usually used for temporary files and the programming languages use when working with it.*
 
-+ Create requirements.txt (can be empty) and briefly explain what it is for
++ Create requirements.txt (can be empty) and briefly explain what it is for: *It is a file used to specify packages or libraries that will be used in the project and can be installed from the file. In most cases, this is found in Python projects.*

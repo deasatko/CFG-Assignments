@@ -2,11 +2,11 @@
 # CFGDegree
 Repository containing CFG Summer Degree assignments.
 ## About me 🧜‍♀️
-Hi, I'm Dea Satko, currently working as an Equity Analyst 📈 at a leading investment company in London. I'm excited to share that I'm now looking to transition into a career in Tech 🖥️.
+Hi, I'm Dea Satko, currently working as an Equity Analyst 📈 at a leading investment company in London. I am now looking to transition into a career in Tech 🖥️.
 
 Originally from Italy 🍕, I've spent most of my life there before moving to London about eight years ago. I pursued both my Bachelor's and Master's degrees in Finance at Queen Mary University of London 👩‍🎓.
 
-In my free time, I love playing video games 🎮 and attending music events 🎼. I’m looking forward to connecting with all of you and exploring this exciting new path together!
+In my free time, I love playing video games 🎮 and attending music events 🎼.
 
 <div align="center"> My favourite quote is:
 
@@ -17,7 +17,7 @@ In my free time, I love playing video games 🎮 and attending music events 🎼
 ## Past Projects 📚
 ![CFGProject](resources/image-3.png)
 
-The project consisted in using Python to do basic data analysis on a spreadsheet. A base csv file was shared containing fake sales data which has been used for analysis and finally creating a barplot to show the changes in sales each month of 2018.
+The project involved using Python for basic data analysis on a spreadsheet. We were provided with a base CSV file containing mock sales data, which we analysed to track changes. Ultimately, we created a bar plot to visualise the monthly sales trends for the year 2018.
 
 *For more information please visit:* [Link](https://github.com/deasatko/CFG)
 

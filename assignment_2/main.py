@@ -8,18 +8,18 @@ import tkinter as tk
 #     return pokemon["name"]
 
 def open_dialog(result):
-  reg_font = ("Verdana", 18)
-  msg = f"YOU {result}!"
-  popup = tk.Tk()
-  popup.minsize(200, 100)
-  popup.wm_title(msg)
-  popup.geometry("200x100")
-  text = tk.Label(popup, text=msg, font=reg_font)
-  text.pack(side="top")
-  b1 = tk.Button(popup, text="CLOSE", command=popup.destroy)
-  b1.config(height = 20, width = 20)
-  b1.pack()
-  popup.mainloop()
+    reg_font = ("Verdana", 18)
+    msg = f"YOU {result}!"
+    popup = tk.Tk()
+    popup.minsize(200, 100)
+    popup.wm_title(msg)
+    popup.geometry("200x100")
+    text = tk.Label(popup, text=msg, font=reg_font)
+    text.pack(side="top")
+    b1 = tk.Button(popup, text="CLOSE", command=popup.destroy)
+    b1.config(height = 20, width = 20)
+    b1.pack()
+    popup.mainloop()
 
 def get_100_pokemon_name():
     endpoint_100pokemon = "https://pokeapi.co/api/v2/pokemon?limit=100" # set the limit of the pokemons to consider to 100.
@@ -46,8 +46,9 @@ def save_battle_results(choice,cpu_fighter):
         result = "LOST"
         
     open_dialog(result)
+    slice_assignment(result)
     
-    msg = f"Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of:{choice_stat - cpu_stat}"
+    msg = f"Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of: {choice_stat - cpu_stat}"
     with open("Battles.txt", "a") as text_file:
         text_file.write(msg + "\n")
 
@@ -56,6 +57,12 @@ def get_pokemon_stat(choice): #
     response = requests.get(endpoint_single_pokemon)
     data = response.json()
     return sum(list(map(lambda stat: stat["base_stat"],data["stats"])))
+
+def slice_assignment(result):
+    s = ("you", f"{result}")
+    x = slice(1, 2)
+    print(s[x])
+    
 
 if __name__ == "__main__":
     choice = ""

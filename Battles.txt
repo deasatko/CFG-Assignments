@@ -1,0 +1,5 @@
+Battle result: Your pikachu LOST the fight against victreebel with a difference in stats of:-170
+Battle result: Your pikachu LOST the fight against hypno with a difference in stats of:-163
+Battle result: Your pikachu WON the fight against sandshrew with a difference in stats of:20
+Battle result: Your pikachu LOST the fight against clefable with a difference in stats of:-163
+Battle result: Your pikachu LOST the fight against wartortle with a difference in stats of:-85

@@ -1,6 +1,10 @@
-
 # CFGDegree
 Repository containing CFG Summer Degree assignments.
+
+## Assignments
+- Assignment 1: [Git and Github](README.md)
+- Assignment 2: [Python](assignment_2)
+
 ## About me 🧜‍♀️
 Hi, I'm Dea Satko, currently working as an Equity Analyst 📈 at a leading investment company in London. I am now looking to transition into a career in Tech 🖥️.
 

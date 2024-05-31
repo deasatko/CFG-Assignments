@@ -49,7 +49,7 @@ def save_battle_results(choice,cpu_fighter):
     slice_assignment(result)
     
     msg = f"Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of: {choice_stat - cpu_stat}"
-    with open("Battles.txt", "a") as text_file:
+    with open("assignment_2/report.txt", "a") as text_file:
         text_file.write(msg + "\n")
 
 def get_pokemon_stat(choice): #

@@ -1,6 +1,0 @@
-Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of:{choice_stat - cpu_stat}
-Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of:{choice_stat - cpu_stat}
-Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of:{choice_stat - cpu_stat}
-Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of:{choice_stat - cpu_stat}
-Battle result: Your {choice} {result} the fight against {cpu_fighter} with a difference in stats of:{choice_stat - cpu_stat}
-Battle result: Your pikachu WON the fight against weedle with a difference in stats of:125

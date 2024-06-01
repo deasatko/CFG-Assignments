@@ -1,1 +1,3 @@
 Battle result: Your pikachu# LOST the fight against drowzee with a difference in stats of: -8
+Battle result: Your pikachu WON the fight against bellsprout with a difference in stats of: 20
+Battle result: Your pikachu LOST the fight against golbat with a difference in stats of: -135

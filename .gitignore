@@ -161,3 +161,4 @@ cython_debug/
 
 test.py
 api_exercise.py
+testing_class.py

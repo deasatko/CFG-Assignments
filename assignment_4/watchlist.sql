@@ -9,7 +9,6 @@ CREATE TABLE user (
     email VARCHAR(50) NOT NULL UNIQUE
 );
 
-
 CREATE TABLE movie (
     id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(50) NOT NULL,
@@ -33,7 +32,6 @@ INSERT INTO user (first_name, last_name, email) VALUES
 ('Francesca', 'Bella', 'fbella@outlookk.com'),
 ('Michele', 'Bassi', 'mbassi@outlookk.com');
 
-
 INSERT INTO movie (title, release_year, genre) VALUES
 ('Gossip Girl', '2012' , 'Drama'),
 ('Suits', '2019', 'Drama'),
@@ -45,15 +43,5 @@ SELECT * FROM movie
 JOIN watchlist ON 
 watchlist.movie_id = movie.id WHERE watchlist.user_id = 1 ;
 
-
 INSERT INTO watchlist (movie_id, user_id) VALUES
 (1,1)
-
-
-
-
-
-
-
-
-

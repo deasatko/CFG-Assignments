@@ -40,8 +40,8 @@ def remove_from_watchlist(user_id, movie_id):
 
 def main():
     parser = argparse.ArgumentParser(description="CLI client for Flask app")  # Creating an ArgumentParser object
-    parser.add_argument("action", choices=["hello", "health", "watchlist", "add", "delete"], help="Action to perform")  # Adding positional argument for action
-    parser.add_argument("--user_id", type=str, help="User ID")  # Adding optional argument for user ID
+    parser.add_argument("action", choices=["hello", "health", "watchlist", "add", "delete"], help="Action to perform")  # Adding actions as arguments
+    parser.add_argument("--user_id", type=str, help="User ID")  # Adding argument for user ID
     parser.add_argument("--movie_id", type=str, help="Movie ID")  # Adding optional argument for movie ID
 
     args = parser.parse_args()  # Parsing command-line arguments
@@ -67,4 +67,4 @@ def main():
             print("User ID and Movie ID are required for deleting from watchlist")  # Printing error message if user ID or movie ID is missing
 
 if __name__ == "__main__":
-    main()  # Calling main function if script is executed directly
+    main()  # Calling main function

@@ -39,7 +39,9 @@ def get_watchlist(user_id):
         result = mycursor.fetchall()  # Fetch all rows from the result set.
         return result  # Return the fetched results.
     except:
-        return []  # Return an empty list if there's an exception.
+        return []  # Return an empty list if there's an exception.#
+    finally:
+        connection.close()
 
 # Function that adds movies from user to watchlist when the user queries it.    
 def add_movie_to_watchlist(user_id, movie_id):
@@ -52,6 +54,8 @@ def add_movie_to_watchlist(user_id, movie_id):
         connection.commit()  # Commit to the database.
     except:
         raise Exception("Could not add to watchlist")  # Raise an exception if insertion fails.
+    finally:
+        connection.close()
 
 def remove_movie_from_watchlist(user_id, movie_id):
     connection = _connect_to_db()  # Connect to the database.
